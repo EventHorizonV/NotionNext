@@ -300,7 +300,7 @@ const BLOG = {
   MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || true, // 是否使用音乐播放插件
   MUSIC_PLAYER_VISIBLE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_VISIBLE || true, // 是否在左下角显示播放和切换，如果使用播放器，打开自动播放再隐藏，就会以类似背景音乐的方式播放，无法取消和暂停
   MUSIC_PLAYER_AUTO_PLAY:
-    process.env.NEXT_PUBLIC_MUSIC_PLAYER_AUTO_PLAY || false, // 是否自动播放，不过自动播放时常不生效（移动设备不支持自动播放）
+    process.env.NEXT_PUBLIC_MUSIC_PLAYER_AUTO_PLAY || true, // 是否自动播放，不过自动播放时常不生效（移动设备不支持自动播放）
   MUSIC_PLAYER_LRC_TYPE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_LRC_TYPE || '0', // 歌词显示类型，可选值： 3 | 1 | 0（0：禁用 lrc 歌词，1：lrc 格式的字符串，3：lrc 文件 url）（前提是有配置歌词路径，对 meting 无效）
   MUSIC_PLAYER_CDN_URL:
     process.env.NEXT_PUBLIC_MUSIC_PLAYER_CDN_URL ||
@@ -314,6 +314,167 @@ const BLOG = {
       url: 'https://music.163.com/song/media/outer/url?id=2090470651.mp3',
       cover:
         'https://p2.music.126.net/j-x3egNXCQWeTk3h6_WCsA==/109951168978915269.jpg'
+    },
+    {
+      name: '満ちてゆく',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=2135625944.mp3',
+      cover:
+        'https://p2.music.126.net/EJbqC_DxFt34hHI_b1wa8A==/109951169411341819.jpg'
+    },
+    {
+      name: '死ぬのがいいわ',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1449537106.mp3',
+      cover:
+        'https://p1.music.126.net/WB0Wr2sas5aDAFEq6FEeBQ==/109951167876237145.jpg'
+    },
+    {
+      name: '罪の香り',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1449537104.mp3',
+      cover:
+        'https://p1.music.126.net/WB0Wr2sas5aDAFEq6FEeBQ==/109951167876237145.jpg'
+    },
+    {
+      name: '優しさ',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1441136475.mp3',
+      cover:
+        'https://p1.music.126.net/WB0Wr2sas5aDAFEq6FEeBQ==/109951167876237145.jpg'
+    },
+    {
+      name: '帰ろう',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1449537108.mp3',
+      cover:
+        'https://p1.music.126.net/WB0Wr2sas5aDAFEq6FEeBQ==/109951167876237145.jpg'
+    },
+    {
+      name: 'もうええわ',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1449537102.mp3',
+      cover:
+        'https://p1.music.126.net/WB0Wr2sas5aDAFEq6FEeBQ==/109951167876237145.jpg'
+    },
+    {
+      name: '特にない',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1449536597.mp3',
+      cover:
+        'https://p1.music.126.net/WB0Wr2sas5aDAFEq6FEeBQ==/109951167876237145.jpg'
+    },
+    {
+      name: '風よ',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1449537107.mp3',
+      cover:
+        'https://p1.music.126.net/WB0Wr2sas5aDAFEq6FEeBQ==/109951167876237145.jpg'
+    },
+    {
+      name: 'キリがないから',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1448434709.mp3',
+      cover:
+        'https://p1.music.126.net/WB0Wr2sas5aDAFEq6FEeBQ==/109951167876237145.jpg'
+    },
+    {
+      name: '調子のっちゃって',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1449537105.mp3',
+      cover:
+        'https://p1.music.126.net/WB0Wr2sas5aDAFEq6FEeBQ==/109951167876237145.jpg'
+    },
+    {
+      name: 'さよならべいべ',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1449536598.mp3',
+      cover:
+        'https://p1.music.126.net/WB0Wr2sas5aDAFEq6FEeBQ==/109951167876237145.jpg'
+    },
+    {
+      name: 'きらり',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1841909290.mp3',
+      cover:
+        'https://p1.music.126.net/NeJBFZ4OOPMfu4FhNnvHZQ==/109951165943182354.jpg'
+    },
+    {
+      name: 'まつり',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1930010660.mp3',
+      cover:
+        'https://p1.music.126.net/QU-h-mRs9KbCXqC5I0nXWg==/109951167175013164.jpg'
+    },
+    {
+      name: '青春病',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1930773669.mp3',
+      cover:
+        'https://p1.music.126.net/QU-h-mRs9KbCXqC5I0nXWg==/109951167175013164.jpg'
+    },
+    {
+      name: 'ガーデン',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1930773666.mp3',
+      cover:
+        'https://p1.music.126.net/QU-h-mRs9KbCXqC5I0nXWg==/109951167175013164.jpg'
+    },
+    {
+      name: '何なんw',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=14495371016.mp3',
+      cover:
+        'https://p1.music.126.net/WB0Wr2sas5aDAFEq6FEeBQ==/109951167876237145.jpg'
+    },
+    {
+      name: 'やば。',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1930772314.mp3',
+      cover:
+        'https://p1.music.126.net/QU-h-mRs9KbCXqC5I0nXWg==/109951167175013164.jpg'
+    },
+    {
+      name: 'damn',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1930772315.mp3',
+      cover:
+        'https://p1.music.126.net/QU-h-mRs9KbCXqC5I0nXWg==/109951167175013164.jpg'
+    },
+    {
+      name: '燃えよ',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1930773665.mp3',
+      cover:
+        'https://p1.music.126.net/QU-h-mRs9KbCXqC5I0nXWg==/109951167175013164.jpg'
+    },
+    {
+      name: 'ロンリーラプソディ',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1930773667.mp3',
+      cover:
+        'https://p1.music.126.net/QU-h-mRs9KbCXqC5I0nXWg==/109951167175013164.jpg'
+    },
+    {
+      name: '旅路',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1930772316.mp3',
+      cover:
+        'https://p1.music.126.net/QU-h-mRs9KbCXqC5I0nXWg==/109951167175013164.jpg'
+    },
+    {
+      name: 'それでは、',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1930773668.mp3',
+      cover:
+        'https://p1.music.126.net/QU-h-mRs9KbCXqC5I0nXWg==/109951167175013164.jpg'
+    },
+    {
+      name: 'へでもねーよ (LASA edit)',
+      artist: '藤井风',
+      url: 'https://music.163.com/song/media/outer/url?id=1930773664.mp3',
+      cover:
+        'https://p1.music.126.net/QU-h-mRs9KbCXqC5I0nXWg==/109951167175013164.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
